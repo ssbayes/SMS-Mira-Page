@@ -22,4 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# More files to ignore for testing reasons
 log.txt
+log2.txt

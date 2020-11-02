@@ -16,6 +16,12 @@ const PersonCard = (props) => {
           </div>
           <div className="description">{props.description}</div>
         </div>
+        <div className="extra content">
+          <a>
+            <i className="street view icon"></i>
+            Age: {props.age}
+          </a>
+        </div>
       </div>
     </div>
   );
